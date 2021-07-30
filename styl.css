@@ -1,0 +1,82 @@
+.container {
+    display: grid;
+    grid-template-columns:20% 80%;
+  }
+  .sidebar {
+  
+    display: inline-block;
+  }
+  .sidebar h1 {
+    padding-left: 1rem;
+  }
+  .sidebar-menu {
+    list-style: none;
+    margin-block: 0;
+    padding-inline: 0;
+    padding-left: 1rem;
+  }
+  .sidebar-menu li {
+    margin: 1.8rem 0;
+  }
+  .button-container{
+    text-align:center;
+    margin-top:1.5rem;
+  }
+  .cart-button {
+    text-align: center;
+    padding: 0.8rem 2rem;
+    background-color:rgb(255,78,78);
+    border-radius: 50px; 
+    display:inline-block;
+    text-color:white;
+    color:white;
+  }
+  .main {
+    /*   width: 79%; */
+    display: inline-block;
+  }
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+  }
+  .main-header h1 {
+    width: 50%;
+    margin-left: 1rem;
+    font-size:2.2rem
+  }
+  .box-container {
+    display: flex;
+    /*   justify-content: space-between; */
+    align-items: center;
+  }
+  .box {
+    text-align: center;
+    border-radius: 20px;
+    padding: 1.2rem;
+    margin: 0 1rem;
+    box-shadow: #dcdcdc 7px 7px 20px 4px;
+    background-color: white;
+  }
+  .box img {
+    border-radius: 50%;
+    width: 6rem;
+  }
+  .box p {
+    margin: 0.8rem 0 0;
+    font-weight: bold;
+  }
+  body {
+    background-color:#FAFAFA;
+  }
+  .div1 {
+    width: 30%;
+    padding-right:7rem;
+  }
+  hr{
+    width:25%;
+    background-color:red;
+     height:0.1rem;
+  }
+  
